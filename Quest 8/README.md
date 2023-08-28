@@ -14,7 +14,7 @@
   > 네 에러를 유발할 가능성이 있는 코드는 없었습니다.
 - [X] 코드 작성자가 코드를 제대로 이해하고 작성했나요?
   > 주석을 통해 작성자가 코드를 제대로 이해하고 있음을 알 수 있었습니다.
-'''python
+```python
 def decoder_inference(sentence):
   sentence = preprocess_sentence(sentence)
 
@@ -45,7 +45,7 @@ def decoder_inference(sentence):
     output_sequence = tf.concat([output_sequence, predicted_id], axis=-1)
 
   return tf.squeeze(output_sequence, axis=0)
-  '''
+```
 
 - [X] 코드가 간결한가요?
   > 불필요한 코드없이 간결하게 작성이 되어있었습니다.
